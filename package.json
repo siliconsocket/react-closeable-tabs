@@ -1,5 +1,5 @@
 {
-  "name": "react-closeable-tabs",
+  "name": "@siliconsocket/react-closeable-tabs",
   "version": "1.1.4",
   "description": "Simple closeable tabs. Add or remove tabs",
   "main": "lib/index.js",
