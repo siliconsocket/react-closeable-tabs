@@ -115,9 +115,7 @@ class ReactCloseableTabs extends Component {
 
   closeTab = (e, id) => {
     e.stopPropagation()
-    const activeId = this.state.data[this.state.activeIndex][
-      this.state.identifier
-    ]
+    const activeId = this.state.data && this.state.data[this.state.activeIndex] && this.state.data[this.state.activeIndex][this.state.identifier]
     const newIndex =
       activeId >= id ? this.state.activeIndex - 1 : this.state.activeIndex
     let canClose = true;
